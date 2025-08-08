@@ -10,7 +10,7 @@ describe('Orange HRM Test', () => {
     cy.get('.oxd-topbar-header-breadcrumb > .oxd-text').contains('Dashboard')
   })
 })
- it('Login - Success', () => {
+ it('Login - Fail', () => {
     cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
     cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').type('AAAA')
     cy.wait(3000); // espera 3 segundos
