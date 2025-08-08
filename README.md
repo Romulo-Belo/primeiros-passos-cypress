@@ -4,14 +4,6 @@ Este repositório contém testes automatizados end-to-end (e2e) desenvolvidos co
 Estrutura do Projeto
 A estrutura de diretórios segue a convenção padrão do Cypress, organizada para fácil navegação e manutenção:
 
-cypress/
-├── e2e/
-│   ├── login.spec.cy.js  # Principal arquivo de teste contendo os cenários de login
-├── fixtures/             # Pasta para dados de teste (ex: usuários, senhas)
-├── support/              # Comandos personalizados, lógicas reutilizáveis, etc.
-├── cypress.config.js     # Configurações globais do Cypress
-├── package.json          # Gerenciamento de dependências do projeto
-└── package-lock.json     # Garante que as dependências sejam instaladas de forma consistente
 
 Pré-requisitos
 Para rodar este projeto, você precisará ter o Node.js e o npm (Node Package Manager) instalados em sua máquina. Você pode baixá-los em nodejs.org.
